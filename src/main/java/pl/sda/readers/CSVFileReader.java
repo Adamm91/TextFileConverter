@@ -52,10 +52,12 @@
 //
 //}
 
-package pl.sda;
+package pl.sda.readers;
+
+import pl.sda.Something;
+import pl.sda.readers.TextFileReader;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -90,10 +92,6 @@ public class CSVFileReader implements TextFileReader {
         }
         return something;
     }
-
-//    private void setSomethingFieldFromCSVFile(Something something, String header, String value) {
-//
-//    }
 
 
 }

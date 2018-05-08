@@ -1,4 +1,7 @@
-package pl.sda;
+package pl.sda.readers;
+
+import pl.sda.Something;
+import pl.sda.readers.TextFileReader;
 
 import java.io.IOException;
 import java.util.List;

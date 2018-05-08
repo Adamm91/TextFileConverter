@@ -3,6 +3,7 @@ package pl.sda;
 
 import org.junit.Assert;
 import org.junit.Test;
+import pl.sda.readers.CSVFileReader;
 
 import java.io.IOException;
 import java.util.List;
